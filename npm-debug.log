@@ -1,0 +1,1272 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.0
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/cabot/JavaScriptWorkSpace/socket.io',
+5 verbose install   [ 'socket.io-client',
+5 verbose install     'policyfile',
+5 verbose install     'base64id',
+5 verbose install     'redis',
+5 verbose install     'expresso',
+5 verbose install     'should',
+5 verbose install     'benchmark',
+5 verbose install     'microtime',
+5 verbose install     'colors' ] ]
+6 info preinstall socket.io@0.9.14
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'base64id@0.1.0', null ]
+9 verbose cache add name=undefined spec="base64id@0.1.0" args=["base64id@0.1.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'base64id@0.1.0',
+10 verbose parsed url   path: 'base64id@0.1.0',
+10 verbose parsed url   href: 'base64id@0.1.0' }
+11 verbose cache add [ 'redis@0.7.3', null ]
+12 verbose cache add name=undefined spec="redis@0.7.3" args=["redis@0.7.3",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'redis@0.7.3',
+13 verbose parsed url   path: 'redis@0.7.3',
+13 verbose parsed url   href: 'redis@0.7.3' }
+14 verbose cache add name="base64id" spec="0.1.0" args=["base64id","0.1.0"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: '0.1.0',
+15 verbose parsed url   path: '0.1.0',
+15 verbose parsed url   href: '0.1.0' }
+16 verbose addNamed [ 'base64id', '0.1.0' ]
+17 verbose addNamed [ '0.1.0', '0.1.0' ]
+18 verbose cache add [ 'expresso@0.9.2', null ]
+19 verbose cache add name=undefined spec="expresso@0.9.2" args=["expresso@0.9.2",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'expresso@0.9.2',
+20 verbose parsed url   path: 'expresso@0.9.2',
+20 verbose parsed url   href: 'expresso@0.9.2' }
+21 verbose cache add name="redis" spec="0.7.3" args=["redis","0.7.3"]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '0.7.3',
+22 verbose parsed url   path: '0.7.3',
+22 verbose parsed url   href: '0.7.3' }
+23 verbose addNamed [ 'redis', '0.7.3' ]
+24 verbose addNamed [ '0.7.3', '0.7.3' ]
+25 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+26 verbose lock base64id@0.1.0 /Users/cabot/.npm/b2185bf4-base64id-0-1-0.lock
+27 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+28 verbose lock redis@0.7.3 /Users/cabot/.npm/10399cfa-redis-0-7-3.lock
+29 verbose cache add [ 'should@*', null ]
+30 verbose cache add name=undefined spec="should@*" args=["should@*",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'should@*',
+31 verbose parsed url   path: 'should@*',
+31 verbose parsed url   href: 'should@*' }
+32 verbose cache add [ 'benchmark@0.2.2', null ]
+33 verbose cache add name=undefined spec="benchmark@0.2.2" args=["benchmark@0.2.2",null]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: 'benchmark@0.2.2',
+34 verbose parsed url   path: 'benchmark@0.2.2',
+34 verbose parsed url   href: 'benchmark@0.2.2' }
+35 verbose cache add name="expresso" spec="0.9.2" args=["expresso","0.9.2"]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: '0.9.2',
+36 verbose parsed url   path: '0.9.2',
+36 verbose parsed url   href: '0.9.2' }
+37 verbose addNamed [ 'expresso', '0.9.2' ]
+38 verbose addNamed [ '0.9.2', '0.9.2' ]
+39 silly lockFile 1dee2d99-expresso-0-9-2 expresso@0.9.2
+40 verbose lock expresso@0.9.2 /Users/cabot/.npm/1dee2d99-expresso-0-9-2.lock
+41 verbose cache add name="should" spec="*" args=["should","*"]
+42 verbose parsed url { protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: '*',
+42 verbose parsed url   path: '*',
+42 verbose parsed url   href: '*' }
+43 verbose addNamed [ 'should', '*' ]
+44 verbose addNamed [ null, '*' ]
+45 silly lockFile 987f4939-should should@*
+46 verbose lock should@* /Users/cabot/.npm/987f4939-should.lock
+47 verbose cache add name="benchmark" spec="0.2.2" args=["benchmark","0.2.2"]
+48 verbose parsed url { protocol: null,
+48 verbose parsed url   slashes: null,
+48 verbose parsed url   auth: null,
+48 verbose parsed url   host: null,
+48 verbose parsed url   port: null,
+48 verbose parsed url   hostname: null,
+48 verbose parsed url   hash: null,
+48 verbose parsed url   search: null,
+48 verbose parsed url   query: null,
+48 verbose parsed url   pathname: '0.2.2',
+48 verbose parsed url   path: '0.2.2',
+48 verbose parsed url   href: '0.2.2' }
+49 verbose addNamed [ 'benchmark', '0.2.2' ]
+50 verbose addNamed [ '0.2.2', '0.2.2' ]
+51 silly lockFile d9f1bd28-benchmark-0-2-2 benchmark@0.2.2
+52 verbose lock benchmark@0.2.2 /Users/cabot/.npm/d9f1bd28-benchmark-0-2-2.lock
+53 verbose cache add [ 'microtime@0.1.3-1', null ]
+54 verbose cache add name=undefined spec="microtime@0.1.3-1" args=["microtime@0.1.3-1",null]
+55 verbose parsed url { protocol: null,
+55 verbose parsed url   slashes: null,
+55 verbose parsed url   auth: null,
+55 verbose parsed url   host: null,
+55 verbose parsed url   port: null,
+55 verbose parsed url   hostname: null,
+55 verbose parsed url   hash: null,
+55 verbose parsed url   search: null,
+55 verbose parsed url   query: null,
+55 verbose parsed url   pathname: 'microtime@0.1.3-1',
+55 verbose parsed url   path: 'microtime@0.1.3-1',
+55 verbose parsed url   href: 'microtime@0.1.3-1' }
+56 verbose cache add [ 'colors@0.5.1', null ]
+57 verbose cache add name=undefined spec="colors@0.5.1" args=["colors@0.5.1",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'colors@0.5.1',
+58 verbose parsed url   path: 'colors@0.5.1',
+58 verbose parsed url   href: 'colors@0.5.1' }
+59 verbose cache add [ 'socket.io-client@0.9.11', null ]
+60 verbose cache add name=undefined spec="socket.io-client@0.9.11" args=["socket.io-client@0.9.11",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'socket.io-client@0.9.11',
+61 verbose parsed url   path: 'socket.io-client@0.9.11',
+61 verbose parsed url   href: 'socket.io-client@0.9.11' }
+62 verbose cache add [ 'policyfile@0.0.4', null ]
+63 verbose cache add name=undefined spec="policyfile@0.0.4" args=["policyfile@0.0.4",null]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: 'policyfile@0.0.4',
+64 verbose parsed url   path: 'policyfile@0.0.4',
+64 verbose parsed url   href: 'policyfile@0.0.4' }
+65 verbose cache add name="microtime" spec="0.1.3-1" args=["microtime","0.1.3-1"]
+66 verbose parsed url { protocol: null,
+66 verbose parsed url   slashes: null,
+66 verbose parsed url   auth: null,
+66 verbose parsed url   host: null,
+66 verbose parsed url   port: null,
+66 verbose parsed url   hostname: null,
+66 verbose parsed url   hash: null,
+66 verbose parsed url   search: null,
+66 verbose parsed url   query: null,
+66 verbose parsed url   pathname: '0.1.3-1',
+66 verbose parsed url   path: '0.1.3-1',
+66 verbose parsed url   href: '0.1.3-1' }
+67 verbose addNamed [ 'microtime', '0.1.3-1' ]
+68 verbose addNamed [ '0.1.3-1', '0.1.3-1' ]
+69 silly lockFile 7fb08c51-microtime-0-1-3-1 microtime@0.1.3-1
+70 verbose lock microtime@0.1.3-1 /Users/cabot/.npm/7fb08c51-microtime-0-1-3-1.lock
+71 verbose cache add name="colors" spec="0.5.1" args=["colors","0.5.1"]
+72 verbose parsed url { protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: '0.5.1',
+72 verbose parsed url   path: '0.5.1',
+72 verbose parsed url   href: '0.5.1' }
+73 verbose addNamed [ 'colors', '0.5.1' ]
+74 verbose addNamed [ '0.5.1', '0.5.1' ]
+75 silly lockFile f4bcf598-colors-0-5-1 colors@0.5.1
+76 verbose lock colors@0.5.1 /Users/cabot/.npm/f4bcf598-colors-0-5-1.lock
+77 verbose cache add name="socket.io-client" spec="0.9.11" args=["socket.io-client","0.9.11"]
+78 verbose parsed url { protocol: null,
+78 verbose parsed url   slashes: null,
+78 verbose parsed url   auth: null,
+78 verbose parsed url   host: null,
+78 verbose parsed url   port: null,
+78 verbose parsed url   hostname: null,
+78 verbose parsed url   hash: null,
+78 verbose parsed url   search: null,
+78 verbose parsed url   query: null,
+78 verbose parsed url   pathname: '0.9.11',
+78 verbose parsed url   path: '0.9.11',
+78 verbose parsed url   href: '0.9.11' }
+79 verbose addNamed [ 'socket.io-client', '0.9.11' ]
+80 verbose addNamed [ '0.9.11', '0.9.11' ]
+81 silly lockFile 32416c18-socket-io-client-0-9-11 socket.io-client@0.9.11
+82 verbose lock socket.io-client@0.9.11 /Users/cabot/.npm/32416c18-socket-io-client-0-9-11.lock
+83 verbose cache add name="policyfile" spec="0.0.4" args=["policyfile","0.0.4"]
+84 verbose parsed url { protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: '0.0.4',
+84 verbose parsed url   path: '0.0.4',
+84 verbose parsed url   href: '0.0.4' }
+85 verbose addNamed [ 'policyfile', '0.0.4' ]
+86 verbose addNamed [ '0.0.4', '0.0.4' ]
+87 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+88 verbose lock policyfile@0.0.4 /Users/cabot/.npm/8b99131a-policyfile-0-0-4.lock
+89 silly addNameRange { name: 'should', range: '*', hasData: false }
+90 verbose request where is /expresso
+91 verbose request registry https://registry.npmjs.org/
+92 verbose request id cbcd0d0e7b470465
+93 verbose url raw /expresso
+94 verbose url resolving [ 'https://registry.npmjs.org/', './expresso' ]
+95 verbose url resolved https://registry.npmjs.org/expresso
+96 verbose request where is https://registry.npmjs.org/expresso
+97 info trying registry request attempt 1 at 16:40:46
+98 http GET https://registry.npmjs.org/expresso
+99 verbose request where is /should
+100 verbose request registry https://registry.npmjs.org/
+101 verbose url raw /should
+102 verbose url resolving [ 'https://registry.npmjs.org/', './should' ]
+103 verbose url resolved https://registry.npmjs.org/should
+104 verbose request where is https://registry.npmjs.org/should
+105 info trying registry request attempt 1 at 16:40:46
+106 http GET https://registry.npmjs.org/should
+107 verbose request where is /benchmark
+108 verbose request registry https://registry.npmjs.org/
+109 verbose url raw /benchmark
+110 verbose url resolving [ 'https://registry.npmjs.org/', './benchmark' ]
+111 verbose url resolved https://registry.npmjs.org/benchmark
+112 verbose request where is https://registry.npmjs.org/benchmark
+113 info trying registry request attempt 1 at 16:40:46
+114 http GET https://registry.npmjs.org/benchmark
+115 verbose request where is /microtime
+116 verbose request registry https://registry.npmjs.org/
+117 verbose url raw /microtime
+118 verbose url resolving [ 'https://registry.npmjs.org/', './microtime' ]
+119 verbose url resolved https://registry.npmjs.org/microtime
+120 verbose request where is https://registry.npmjs.org/microtime
+121 info trying registry request attempt 1 at 16:40:46
+122 http GET https://registry.npmjs.org/microtime
+123 verbose request where is /colors
+124 verbose request registry https://registry.npmjs.org/
+125 verbose url raw /colors
+126 verbose url resolving [ 'https://registry.npmjs.org/', './colors' ]
+127 verbose url resolved https://registry.npmjs.org/colors
+128 verbose request where is https://registry.npmjs.org/colors
+129 info trying registry request attempt 1 at 16:40:47
+130 verbose etag "2YZ5WYMUI4X6FK8TB8F3HQ7SJ"
+131 http GET https://registry.npmjs.org/colors
+132 verbose request where is /base64id
+133 verbose request registry https://registry.npmjs.org/
+134 verbose url raw /base64id
+135 verbose url resolving [ 'https://registry.npmjs.org/', './base64id' ]
+136 verbose url resolved https://registry.npmjs.org/base64id
+137 verbose request where is https://registry.npmjs.org/base64id
+138 info trying registry request attempt 1 at 16:40:47
+139 verbose etag "8NV0Q3CRUALHXKR975H7DKN8"
+140 http GET https://registry.npmjs.org/base64id
+141 verbose request where is /policyfile
+142 verbose request registry https://registry.npmjs.org/
+143 verbose url raw /policyfile
+144 verbose url resolving [ 'https://registry.npmjs.org/', './policyfile' ]
+145 verbose url resolved https://registry.npmjs.org/policyfile
+146 verbose request where is https://registry.npmjs.org/policyfile
+147 info trying registry request attempt 1 at 16:40:47
+148 verbose etag "DZ96WZ6R17E7PKVCDAAOGBJ5I"
+149 http GET https://registry.npmjs.org/policyfile
+150 verbose request where is /socket.io-client
+151 verbose request registry https://registry.npmjs.org/
+152 verbose url raw /socket.io-client
+153 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io-client' ]
+154 verbose url resolved https://registry.npmjs.org/socket.io-client
+155 verbose request where is https://registry.npmjs.org/socket.io-client
+156 info trying registry request attempt 1 at 16:40:47
+157 verbose etag "BON59QGE0UV97QFCOK7Y8N7AF"
+158 http GET https://registry.npmjs.org/socket.io-client
+159 verbose request where is /redis
+160 verbose request registry https://registry.npmjs.org/
+161 verbose url raw /redis
+162 verbose url resolving [ 'https://registry.npmjs.org/', './redis' ]
+163 verbose url resolved https://registry.npmjs.org/redis
+164 verbose request where is https://registry.npmjs.org/redis
+165 info trying registry request attempt 1 at 16:40:47
+166 verbose etag "6X7TXPD8PAC9L0I6GZSBQH9P1"
+167 http GET https://registry.npmjs.org/redis
+168 http 200 https://registry.npmjs.org/colors
+169 silly registry.get cb [ 200,
+169 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:49 GMT',
+169 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+169 silly registry.get     etag: '"3IALJRWSTD1PIFY3Z4EVFP09L"',
+169 silly registry.get     'content-type': 'application/json',
+169 silly registry.get     'cache-control': 'max-age=60',
+169 silly registry.get     'content-length': '8581',
+169 silly registry.get     'accept-ranges': 'bytes',
+169 silly registry.get     via: '1.1 varnish',
+169 silly registry.get     age: '80',
+169 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+169 silly registry.get     'x-cache': 'HIT',
+169 silly registry.get     'x-cache-hits': '4',
+169 silly registry.get     'x-timer': 'S1408705849.196724,VS0,VE0',
+169 silly registry.get     vary: 'Accept',
+169 silly registry.get     'keep-alive': 'timeout=10, max=50',
+169 silly registry.get     connection: 'Keep-Alive' } ]
+170 silly lockFile 3d2de77b-pmjs-org-colors-colors-0-5-1-tgz https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+171 verbose lock https://registry.npmjs.org/colors/-/colors-0.5.1.tgz /Users/cabot/.npm/3d2de77b-pmjs-org-colors-colors-0-5-1-tgz.lock
+172 verbose addRemoteTarball [ 'https://registry.npmjs.org/colors/-/colors-0.5.1.tgz',
+172 verbose addRemoteTarball   '7d0023eaeb154e8ee9fce75dcb923d0ed1667774' ]
+173 info retry fetch attempt 1 at 16:40:48
+174 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/colors/-/colors-0.5.1.tgz
+175 http GET https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+176 http 304 https://registry.npmjs.org/base64id
+177 silly registry.get cb [ 304,
+177 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:49 GMT',
+177 silly registry.get     server: 'Apache',
+177 silly registry.get     via: '1.1 varnish',
+177 silly registry.get     'last-modified': 'Fri, 22 Aug 2014 11:10:50 GMT',
+177 silly registry.get     'cache-control': 'max-age=60',
+177 silly registry.get     etag: '"8NV0Q3CRUALHXKR975H7DKN8"',
+177 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+177 silly registry.get     'x-cache': 'HIT',
+177 silly registry.get     'x-cache-hits': '1',
+177 silly registry.get     'x-timer': 'S1408705849.561358,VS0,VE749',
+177 silly registry.get     vary: 'Accept',
+177 silly registry.get     'content-length': '0',
+177 silly registry.get     'keep-alive': 'timeout=10, max=49',
+177 silly registry.get     connection: 'Keep-Alive' } ]
+178 verbose etag https://registry.npmjs.org/base64id from cache
+179 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+180 silly lockFile b2185bf4-base64id-0-1-0 base64id@0.1.0
+181 http 200 https://registry.npmjs.org/microtime
+182 silly registry.get cb [ 200,
+182 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:50 GMT',
+182 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+182 silly registry.get     etag: '"2M5PWSO84BG5F142GLW7D0PIR"',
+182 silly registry.get     'content-type': 'application/json',
+182 silly registry.get     'cache-control': 'max-age=60',
+182 silly registry.get     'content-length': '16501',
+182 silly registry.get     'accept-ranges': 'bytes',
+182 silly registry.get     via: '1.1 varnish',
+182 silly registry.get     age: '0',
+182 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+182 silly registry.get     'x-cache': 'MISS',
+182 silly registry.get     'x-cache-hits': '0',
+182 silly registry.get     'x-timer': 'S1408705849.191551,VS0,VE1210',
+182 silly registry.get     vary: 'Accept',
+182 silly registry.get     'keep-alive': 'timeout=10, max=50',
+182 silly registry.get     connection: 'Keep-Alive' } ]
+183 http 200 https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+184 silly lockFile c66d37ce--microtime-microtime-0-1-3-1-tgz https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+185 verbose lock https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz /Users/cabot/.npm/c66d37ce--microtime-microtime-0-1-3-1-tgz.lock
+186 verbose addRemoteTarball [ 'https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz',
+186 verbose addRemoteTarball   '5eb1875ea6a1ecca8b431c41ebe68ee3db4a2585' ]
+187 info retry fetch attempt 1 at 16:40:50
+188 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+189 http GET https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+190 silly lockFile 3d2de77b-pmjs-org-colors-colors-0-5-1-tgz https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+191 silly lockFile 3d2de77b-pmjs-org-colors-colors-0-5-1-tgz https://registry.npmjs.org/colors/-/colors-0.5.1.tgz
+192 silly lockFile f4bcf598-colors-0-5-1 colors@0.5.1
+193 silly lockFile f4bcf598-colors-0-5-1 colors@0.5.1
+194 http 200 https://registry.npmjs.org/expresso
+195 silly registry.get cb [ 200,
+195 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:49 GMT',
+195 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+195 silly registry.get     etag: '"C3HM3BLDEHBJEGZNXJLM8NZWM"',
+195 silly registry.get     'content-type': 'application/json',
+195 silly registry.get     'cache-control': 'max-age=60',
+195 silly registry.get     'content-length': '19034',
+195 silly registry.get     'accept-ranges': 'bytes',
+195 silly registry.get     via: '1.1 varnish',
+195 silly registry.get     age: '1843',
+195 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+195 silly registry.get     'x-cache': 'MISS',
+195 silly registry.get     'x-cache-hits': '0',
+195 silly registry.get     'x-timer': 'S1408705849.196866,VS0,VE750',
+195 silly registry.get     vary: 'Accept',
+195 silly registry.get     'keep-alive': 'timeout=10, max=50',
+195 silly registry.get     connection: 'Keep-Alive' } ]
+196 silly lockFile ef97cd11--org-expresso-expresso-0-9-2-tgz https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+197 verbose lock https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz /Users/cabot/.npm/ef97cd11--org-expresso-expresso-0-9-2-tgz.lock
+198 verbose addRemoteTarball [ 'https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz',
+198 verbose addRemoteTarball   '177b260908acaebe45ee16ddf74495a3f55862e8' ]
+199 info retry fetch attempt 1 at 16:40:50
+200 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+201 http GET https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+202 http 304 https://registry.npmjs.org/socket.io-client
+203 silly registry.get cb [ 304,
+203 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:51 GMT',
+203 silly registry.get     server: 'Apache',
+203 silly registry.get     via: '1.1 varnish',
+203 silly registry.get     'last-modified': 'Fri, 22 Aug 2014 11:10:52 GMT',
+203 silly registry.get     'cache-control': 'max-age=60',
+203 silly registry.get     etag: '"BON59QGE0UV97QFCOK7Y8N7AF"',
+203 silly registry.get     'x-served-by': 'cache-syd1621-SYD',
+203 silly registry.get     'x-cache': 'HIT',
+203 silly registry.get     'x-cache-hits': '1',
+203 silly registry.get     'x-timer': 'S1408705851.160893,VS0,VE977',
+203 silly registry.get     vary: 'Accept',
+203 silly registry.get     'content-length': '0',
+203 silly registry.get     'keep-alive': 'timeout=10, max=49',
+203 silly registry.get     connection: 'Keep-Alive' } ]
+204 verbose etag https://registry.npmjs.org/socket.io-client from cache
+205 silly lockFile a40fba66-ient-socket-io-client-0-9-11-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+206 verbose lock https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz /Users/cabot/.npm/a40fba66-ient-socket-io-client-0-9-11-tgz.lock
+207 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz',
+207 verbose addRemoteTarball   '94defc1b29e0d8a8fe958c1cf33300f68d8a19c7' ]
+208 info retry fetch attempt 1 at 16:40:51
+209 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+210 http GET https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+211 http 200 https://registry.npmjs.org/should
+212 silly registry.get cb [ 200,
+212 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:50 GMT',
+212 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+212 silly registry.get     etag: '"DOPZ0TO1QSVFPDTN8WQ94SAOX"',
+212 silly registry.get     'content-type': 'application/json',
+212 silly registry.get     'cache-control': 'max-age=60',
+212 silly registry.get     'content-length': '67715',
+212 silly registry.get     'accept-ranges': 'bytes',
+212 silly registry.get     via: '1.1 varnish',
+212 silly registry.get     age: '273',
+212 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+212 silly registry.get     'x-cache': 'HIT',
+212 silly registry.get     'x-cache-hits': '1',
+212 silly registry.get     'x-timer': 'S1408705850.143449,VS0,VE756',
+212 silly registry.get     vary: 'Accept',
+212 silly registry.get     'keep-alive': 'timeout=10, max=50',
+212 silly registry.get     connection: 'Keep-Alive' } ]
+213 silly addNameRange number 2 { name: 'should', range: '*', hasData: true }
+214 silly addNameRange versions [ 'should',
+214 silly addNameRange   [ '0.0.1',
+214 silly addNameRange     '0.0.2',
+214 silly addNameRange     '0.0.3',
+214 silly addNameRange     '0.0.4',
+214 silly addNameRange     '0.1.0',
+214 silly addNameRange     '0.2.0',
+214 silly addNameRange     '0.2.1',
+214 silly addNameRange     '0.3.0',
+214 silly addNameRange     '0.3.1',
+214 silly addNameRange     '0.3.2',
+214 silly addNameRange     '0.4.0',
+214 silly addNameRange     '0.4.1',
+214 silly addNameRange     '0.4.2',
+214 silly addNameRange     '0.5.0',
+214 silly addNameRange     '0.5.1',
+214 silly addNameRange     '0.6.0',
+214 silly addNameRange     '0.6.1',
+214 silly addNameRange     '0.6.2',
+214 silly addNameRange     '0.6.3',
+214 silly addNameRange     '1.0.0',
+214 silly addNameRange     '1.1.0',
+214 silly addNameRange     '1.1.1',
+214 silly addNameRange     '1.2.0',
+214 silly addNameRange     '1.2.1',
+214 silly addNameRange     '1.2.2',
+214 silly addNameRange     '1.3.0',
+214 silly addNameRange     '2.0.0',
+214 silly addNameRange     '2.0.1',
+214 silly addNameRange     '2.0.2',
+214 silly addNameRange     '2.1.0',
+214 silly addNameRange     '2.1.1',
+214 silly addNameRange     '3.0.0',
+214 silly addNameRange     '3.0.1',
+214 silly addNameRange     '3.1.0',
+214 silly addNameRange     '3.1.1',
+214 silly addNameRange     '3.1.2',
+214 silly addNameRange     '3.1.3',
+214 silly addNameRange     '3.1.4',
+214 silly addNameRange     '3.2.0-beta1',
+214 silly addNameRange     '3.2.0',
+214 silly addNameRange     '3.3.0',
+214 silly addNameRange     '3.3.1',
+214 silly addNameRange     '3.3.2',
+214 silly addNameRange     '4.0.0',
+214 silly addNameRange     '4.0.1',
+214 silly addNameRange     '4.0.3',
+214 silly addNameRange     '4.0.4' ] ]
+215 verbose addNamed [ 'should', '4.0.4' ]
+216 verbose addNamed [ '4.0.4', '4.0.4' ]
+217 silly lockFile 4d7e04e0-should-4-0-4 should@4.0.4
+218 verbose lock should@4.0.4 /Users/cabot/.npm/4d7e04e0-should-4-0-4.lock
+219 silly lockFile b9618ff2-pmjs-org-should-should-4-0-4-tgz https://registry.npmjs.org/should/-/should-4.0.4.tgz
+220 verbose lock https://registry.npmjs.org/should/-/should-4.0.4.tgz /Users/cabot/.npm/b9618ff2-pmjs-org-should-should-4-0-4-tgz.lock
+221 verbose addRemoteTarball [ 'https://registry.npmjs.org/should/-/should-4.0.4.tgz',
+221 verbose addRemoteTarball   '8efaa304f1f148cf3d2e955862990f9ab9ea628f' ]
+222 info retry fetch attempt 1 at 16:40:51
+223 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/should/-/should-4.0.4.tgz
+224 http GET https://registry.npmjs.org/should/-/should-4.0.4.tgz
+225 http 304 https://registry.npmjs.org/policyfile
+226 silly registry.get cb [ 304,
+226 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:51 GMT',
+226 silly registry.get     server: 'Apache',
+226 silly registry.get     via: '1.1 varnish',
+226 silly registry.get     'last-modified': 'Fri, 22 Aug 2014 11:10:52 GMT',
+226 silly registry.get     'cache-control': 'max-age=60',
+226 silly registry.get     etag: '"DZ96WZ6R17E7PKVCDAAOGBJ5I"',
+226 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+226 silly registry.get     'x-cache': 'HIT',
+226 silly registry.get     'x-cache-hits': '1',
+226 silly registry.get     'x-timer': 'S1408705851.746573,VS0,VE749',
+226 silly registry.get     vary: 'Accept',
+226 silly registry.get     'content-length': '0',
+226 silly registry.get     'keep-alive': 'timeout=10, max=48',
+226 silly registry.get     connection: 'Keep-Alive' } ]
+227 verbose etag https://registry.npmjs.org/policyfile from cache
+228 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+229 silly lockFile 8b99131a-policyfile-0-0-4 policyfile@0.0.4
+230 http 200 https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+231 http 200 https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+232 http 200 https://registry.npmjs.org/should/-/should-4.0.4.tgz
+233 http 200 https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+234 silly lockFile c66d37ce--microtime-microtime-0-1-3-1-tgz https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+235 silly lockFile c66d37ce--microtime-microtime-0-1-3-1-tgz https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz
+236 silly lockFile 7fb08c51-microtime-0-1-3-1 microtime@0.1.3-1
+237 silly lockFile 7fb08c51-microtime-0-1-3-1 microtime@0.1.3-1
+238 silly lockFile b9618ff2-pmjs-org-should-should-4-0-4-tgz https://registry.npmjs.org/should/-/should-4.0.4.tgz
+239 silly lockFile b9618ff2-pmjs-org-should-should-4-0-4-tgz https://registry.npmjs.org/should/-/should-4.0.4.tgz
+240 silly lockFile 4d7e04e0-should-4-0-4 should@4.0.4
+241 silly lockFile 4d7e04e0-should-4-0-4 should@4.0.4
+242 silly lockFile 987f4939-should should@*
+243 silly lockFile 987f4939-should should@*
+244 http 200 https://registry.npmjs.org/redis
+245 silly registry.get cb [ 200,
+245 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:52 GMT',
+245 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+245 silly registry.get     etag: '"AROQZ5LFYZ14OEVM8IHYQC0NT"',
+245 silly registry.get     'content-type': 'application/json',
+245 silly registry.get     'cache-control': 'max-age=60',
+245 silly registry.get     'content-length': '89302',
+245 silly registry.get     'accept-ranges': 'bytes',
+245 silly registry.get     via: '1.1 varnish',
+245 silly registry.get     age: '184',
+245 silly registry.get     'x-served-by': 'cache-syd1620-SYD',
+245 silly registry.get     'x-cache': 'HIT',
+245 silly registry.get     'x-cache-hits': '1',
+245 silly registry.get     'x-timer': 'S1408705851.399530,VS0,VE753',
+245 silly registry.get     vary: 'Accept',
+245 silly registry.get     'keep-alive': 'timeout=10, max=49',
+245 silly registry.get     connection: 'Keep-Alive' } ]
+246 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+247 verbose lock https://registry.npmjs.org/redis/-/redis-0.7.3.tgz /Users/cabot/.npm/c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz.lock
+248 verbose addRemoteTarball [ 'https://registry.npmjs.org/redis/-/redis-0.7.3.tgz',
+248 verbose addRemoteTarball   'ee57b7a44d25ec1594e44365d8165fa7d1d4811a' ]
+249 info retry fetch attempt 1 at 16:40:56
+250 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/redis/-/redis-0.7.3.tgz
+251 http GET https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+252 http 200 https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+253 http 200 https://registry.npmjs.org/benchmark
+254 silly registry.get cb [ 200,
+254 silly registry.get   { date: 'Fri, 22 Aug 2014 11:10:52 GMT',
+254 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+254 silly registry.get     etag: '"7MCUN36FBQIU9KYHOOF1G5ZXA"',
+254 silly registry.get     'content-type': 'application/json',
+254 silly registry.get     'cache-control': 'max-age=60',
+254 silly registry.get     'content-length': '27207',
+254 silly registry.get     'accept-ranges': 'bytes',
+254 silly registry.get     via: '1.1 varnish',
+254 silly registry.get     age: '1877',
+254 silly registry.get     'x-served-by': 'cache-syd1622-SYD',
+254 silly registry.get     'x-cache': 'MISS',
+254 silly registry.get     'x-cache-hits': '0',
+254 silly registry.get     'x-timer': 'S1408705851.411399,VS0,VE752',
+254 silly registry.get     vary: 'Accept',
+254 silly registry.get     'keep-alive': 'timeout=10, max=50',
+254 silly registry.get     connection: 'Keep-Alive' } ]
+255 silly lockFile 36eee18d-rg-benchmark-benchmark-0-2-2-tgz https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+256 verbose lock https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz /Users/cabot/.npm/36eee18d-rg-benchmark-benchmark-0-2-2-tgz.lock
+257 verbose addRemoteTarball [ 'https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz',
+257 verbose addRemoteTarball   '9c6bcf8d997c7102c050f075ee8e622e1d66b206' ]
+258 info retry fetch attempt 1 at 16:40:59
+259 verbose fetch to= /tmp/npm-3397-0TDUAc-r/registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+260 http GET https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+261 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+262 silly lockFile c3ea32a4--npmjs-org-redis-redis-0-7-3-tgz https://registry.npmjs.org/redis/-/redis-0.7.3.tgz
+263 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+264 silly lockFile 10399cfa-redis-0-7-3 redis@0.7.3
+265 http 200 https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+266 silly lockFile 36eee18d-rg-benchmark-benchmark-0-2-2-tgz https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+267 silly lockFile 36eee18d-rg-benchmark-benchmark-0-2-2-tgz https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz
+268 silly lockFile d9f1bd28-benchmark-0-2-2 benchmark@0.2.2
+269 silly lockFile d9f1bd28-benchmark-0-2-2 benchmark@0.2.2
+270 silly lockFile a40fba66-ient-socket-io-client-0-9-11-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+271 silly lockFile a40fba66-ient-socket-io-client-0-9-11-tgz https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz
+272 silly lockFile 32416c18-socket-io-client-0-9-11 socket.io-client@0.9.11
+273 silly lockFile 32416c18-socket-io-client-0-9-11 socket.io-client@0.9.11
+274 silly lockFile ef97cd11--org-expresso-expresso-0-9-2-tgz https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+275 silly lockFile ef97cd11--org-expresso-expresso-0-9-2-tgz https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz
+276 silly lockFile 1dee2d99-expresso-0-9-2 expresso@0.9.2
+277 silly lockFile 1dee2d99-expresso-0-9-2 expresso@0.9.2
+278 silly resolved [ { name: 'base64id',
+278 silly resolved     version: '0.1.0',
+278 silly resolved     description: 'Generates a base64 id',
+278 silly resolved     author:
+278 silly resolved      { name: 'Kristian Faeldt',
+278 silly resolved        email: 'faeldt_kristian@cyberagent.co.jp' },
+278 silly resolved     repository: { type: 'git', url: 'git://github.com/faeldt/base64id.git' },
+278 silly resolved     main: './lib/base64id.js',
+278 silly resolved     engines: { node: '>= 0.4.0' },
+278 silly resolved     _npmUser:
+278 silly resolved      { name: 'faeldt_kristian',
+278 silly resolved        email: 'faeldt_kristian@cyberagent.co.jp' },
+278 silly resolved     _id: 'base64id@0.1.0',
+278 silly resolved     dependencies: {},
+278 silly resolved     devDependencies: {},
+278 silly resolved     optionalDependencies: {},
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.1.16',
+278 silly resolved     _nodeVersion: 'v0.6.15',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: '02ce0fdeee0cef4f40080e1e73e834f0b1bfce3f',
+278 silly resolved        tarball: 'http://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz' },
+278 silly resolved     maintainers: [ [Object] ],
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: '02ce0fdeee0cef4f40080e1e73e834f0b1bfce3f',
+278 silly resolved     _from: 'base64id@0.1.0',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/base64id/-/base64id-0.1.0.tgz',
+278 silly resolved     readme: 'base64id\n========\n\nNode.js module that generates a base64 id.\n\nUses crypto.randomBytes when available, falls back to unsafe methods for node.js <= 0.4.\n\nTo increase performance, random bytes are buffered to minimize the number of synchronous calls to crypto.randomBytes.\n\n## Installation\n\n   $ npm install mongoose\n\n## Usage\n\n   var base64id = require(\'base64id\');\n\n   var id = base64id.generateId();\n',
+278 silly resolved     readmeFilename: 'README.md',
+278 silly resolved     bugs: { url: 'https://github.com/faeldt/base64id/issues' },
+278 silly resolved     homepage: 'https://github.com/faeldt/base64id' },
+278 silly resolved   { name: 'colors',
+278 silly resolved     description: 'get colors in your node.js console like what',
+278 silly resolved     version: '0.5.1',
+278 silly resolved     author: { name: 'Marak Squires' },
+278 silly resolved     repository: { type: 'git', url: 'git://github.com/Marak/colors.js.git' },
+278 silly resolved     engines: { node: '>=0.1.90' },
+278 silly resolved     main: 'colors',
+278 silly resolved     _npmJsonOpts:
+278 silly resolved      { file: '/Users/maraksquires/.npm/colors/0.5.1/package/package.json',
+278 silly resolved        wscript: false,
+278 silly resolved        contributors: false,
+278 silly resolved        serverjs: false },
+278 silly resolved     _id: 'colors@0.5.1',
+278 silly resolved     dependencies: {},
+278 silly resolved     devDependencies: {},
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.0.30',
+278 silly resolved     _nodeVersion: 'v0.4.10',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: '7d0023eaeb154e8ee9fce75dcb923d0ed1667774',
+278 silly resolved        tarball: 'http://registry.npmjs.org/colors/-/colors-0.5.1.tgz' },
+278 silly resolved     maintainers: [ [Object] ],
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: '7d0023eaeb154e8ee9fce75dcb923d0ed1667774',
+278 silly resolved     _from: 'colors@0.5.1',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/colors/-/colors-0.5.1.tgz' },
+278 silly resolved   { name: 'policyfile',
+278 silly resolved     version: '0.0.4',
+278 silly resolved     author: { name: 'Arnout Kazemier' },
+278 silly resolved     description: 'Flash Socket Policy File Server. A server to respond to Flash Socket Policy requests, both inline and through a dedicated server instance.',
+278 silly resolved     main: 'index',
+278 silly resolved     keywords:
+278 silly resolved      [ 'flash',
+278 silly resolved        'socket',
+278 silly resolved        'policy',
+278 silly resolved        'file',
+278 silly resolved        'server',
+278 silly resolved        'Flash Socket Policy File Server',
+278 silly resolved        'cross domain' ],
+278 silly resolved     directories: { lib: './lib' },
+278 silly resolved     maintainers: [ [Object] ],
+278 silly resolved     licenses: [ [Object] ],
+278 silly resolved     repositories: [ [Object] ],
+278 silly resolved     _id: 'policyfile@0.0.4',
+278 silly resolved     dependencies: {},
+278 silly resolved     devDependencies: {},
+278 silly resolved     engines: { node: '*' },
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.0.12',
+278 silly resolved     _nodeVersion: 'v0.4.8',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: 'd6b82ead98ae79ebe228e2daf5903311ec982e4d',
+278 silly resolved        tarball: 'http://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz' },
+278 silly resolved     scripts: {},
+278 silly resolved     _shasum: 'd6b82ead98ae79ebe228e2daf5903311ec982e4d',
+278 silly resolved     _from: 'policyfile@0.0.4',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/policyfile/-/policyfile-0.0.4.tgz',
+278 silly resolved     readme: '## LOL, WUT?\nIt basically allows you to allow or disallow Flash Player sockets from accessing your site.\n\n## Installation\n\n```bash\nnpm install policyfile\n```\n## Usage\n\nThe server is based on the regular and know `net` and `http` server patterns. So it you can just listen\nfor all the events that a `net` based server emits etc. But there is one extra event, the `connect_failed`\nevent. This event is triggered when we are unable to listen on the supplied port number.\n\n### createServer\nCreates a new server instance and accepts 2 optional arguments:\n\n-  `options` **Object** Options to configure the server instance\n    -  `log` **Boolean** Enable logging to STDOUT and STDERR (defaults to true)\n-  `origins` **Array** An Array of origins that are allowed by the server (defaults to *:*)\n\n```js\nvar pf = require(\'policyfile\');\npf.createServer();\npf.listen();\n```\n\n#### server.listen\nStart listening on the server and it takes 3 optional arguments\n\n-  `port` **Number** On which port number should we listen? (defaults to 843, which is the first port number the FlashPlayer checks)\n-  `server` **Server** A http server, if we are unable to accept requests or run the server we can also answer the policy requests inline over the supplied HTTP server.\n-  `callback` **Function** A callback function that is called when listening to the server was successful.\n\n```js\nvar pf = require(\'policyfile\');\npf.createServer();\npf.listen(1337, function(){\n  console.log(\':3 yay\')\n});\n```\n\nChanging port numbers can be handy if you do not want to run your server as root and have port 843 forward to a non root port number (aka a number above 1024).\n\n```js\nvar pf = require(\'policyfile\')\n  , http = require(\'http\');\n\nserver = http.createServer(function(q,r){r.writeHead(200);r.end(\'hello world\')});\nserver.listen(80);\n\npf.createServer();\npf.listen(1337, server, function(){\n  console.log(\':3 yay\')\n});\n```\n\nSupport for serving inline requests over a existing HTTP connection as the FlashPlayer will first check port 843, but if it\'s unable to get a response there it will send a policy file request over port 80, which is usually your http server.\n\n#### server.add\nAdds more origins to the policy file you can add as many arguments as you like.\n\n```js\nvar pf = require(\'policyfile\');\npf.createServer([\'google.com:80\']);\npf.listen();\npf.add(\'blog.3rd-Eden.com:80\', \'blog.3rd-Eden.com:8080\'); // now has 3 origins\n```\n\n#### server.add\nAdds more origins to the policy file you can add as many arguments as you like.\n\n```js\nvar pf = require(\'policyfile\');\npf.createServer([\'blog.3rd-Eden.com:80\', \'blog.3rd-Eden.com:8080\']);\npf.listen();\npf.remove(\'blog.3rd-Eden.com:8080\'); // only contains the :80 version now\n```\n\n#### server.close\nShuts down the server\n\n```js\nvar pf = require(\'policyfile\');\npf.createServer();\npf.listen();\npf.close(); // OH NVM.\n```\n\n## API\nhttp://3rd-eden.com/FlashPolicyFileServer/\n\n## Examples\nSee https://github.com/3rd-Eden/FlashPolicyFileServer/tree/master/examples for examples\n\n## Licence\n\nMIT see LICENSE file in the repository',
+278 silly resolved     readmeFilename: 'README.md',
+278 silly resolved     repository:
+278 silly resolved      { type: 'git',
+278 silly resolved        url: 'https://github.com/3rd-Eden/FlashPolicyFileServer.git' },
+278 silly resolved     bugs: { url: 'https://github.com/3rd-Eden/FlashPolicyFileServer/issues' },
+278 silly resolved     homepage: 'https://github.com/3rd-Eden/FlashPolicyFileServer' },
+278 silly resolved   { name: 'microtime',
+278 silly resolved     version: '0.1.3-1',
+278 silly resolved     description: 'Get the current time in microseconds',
+278 silly resolved     author:
+278 silly resolved      { name: 'Wade Simmons',
+278 silly resolved        email: 'wade@wades.im',
+278 silly resolved        url: 'http://wades.im/mons' },
+278 silly resolved     homepage: 'https://github.com/wadey/node-microtime',
+278 silly resolved     repository: 'git://github.com/wadey/node-microtime.git',
+278 silly resolved     main: './index',
+278 silly resolved     engines: { node: '>= 0.2.0' },
+278 silly resolved     scripts: { install: 'node-waf configure build', test: 'node test.js' },
+278 silly resolved     _id: 'microtime@0.1.3-1',
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '0.2.18',
+278 silly resolved     _nodeVersion: 'v0.2.6',
+278 silly resolved     directories: {},
+278 silly resolved     files: [ '' ],
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: '5eb1875ea6a1ecca8b431c41ebe68ee3db4a2585',
+278 silly resolved        tarball: 'http://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz',
+278 silly resolved        bin: [Object] },
+278 silly resolved     _shasum: '5eb1875ea6a1ecca8b431c41ebe68ee3db4a2585',
+278 silly resolved     _from: 'microtime@0.1.3-1',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/microtime/-/microtime-0.1.3-1.tgz' },
+278 silly resolved   { name: 'should',
+278 silly resolved     description: 'test framework agnostic BDD-style assertions',
+278 silly resolved     version: '4.0.4',
+278 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+278 silly resolved     repository:
+278 silly resolved      { type: 'git',
+278 silly resolved        url: 'https://github.com/shouldjs/should.js.git' },
+278 silly resolved     homepage: 'https://github.com/shouldjs/should.js',
+278 silly resolved     scripts:
+278 silly resolved      { test: 'gulp test',
+278 silly resolved        zuul: 'zuul -- ./test/**/*.test.js ./test/*.test.js' },
+278 silly resolved     devDependencies:
+278 silly resolved      { browserify: 'latest',
+278 silly resolved        'mocha-better-spec-reporter': '0.0.2',
+278 silly resolved        'gulp-mocha': '^0.4.1',
+278 silly resolved        'gulp-uglify': '^0.3.0',
+278 silly resolved        'gulp-util': '^2.2.14',
+278 silly resolved        gulp: '^3.6.2',
+278 silly resolved        'vinyl-source-stream2': '^0.1.1',
+278 silly resolved        'gulp-load-plugins': '^0.5.1',
+278 silly resolved        'gulp-rename': '^1.2.0',
+278 silly resolved        'gulp-header': '^1.0.2',
+278 silly resolved        mocha: '^1.19.0',
+278 silly resolved        zuul: '^1.6.5' },
+278 silly resolved     keywords: [ 'test', 'bdd', 'assert' ],
+278 silly resolved     main: './lib/should.js',
+278 silly resolved     license: 'MIT',
+278 silly resolved     bugs: { url: 'https://github.com/shouldjs/should.js/issues' },
+278 silly resolved     _id: 'should@4.0.4',
+278 silly resolved     dist:
+278 silly resolved      { shasum: '8efaa304f1f148cf3d2e955862990f9ab9ea628f',
+278 silly resolved        tarball: 'http://registry.npmjs.org/should/-/should-4.0.4.tgz' },
+278 silly resolved     _from: 'should@*',
+278 silly resolved     _npmVersion: '1.4.3',
+278 silly resolved     _npmUser: { name: 'btd', email: 'bardadymchik@gmail.com' },
+278 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: '8efaa304f1f148cf3d2e955862990f9ab9ea628f',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/should/-/should-4.0.4.tgz' },
+278 silly resolved   { name: 'redis',
+278 silly resolved     version: '0.7.3',
+278 silly resolved     description: 'Redis client library',
+278 silly resolved     author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+278 silly resolved     maintainers: [ [Object] ],
+278 silly resolved     main: './index.js',
+278 silly resolved     scripts: { test: 'node ./test.js' },
+278 silly resolved     devDependencies: { metrics: '>=0.1.5' },
+278 silly resolved     repository: { type: 'git', url: 'git://github.com/mranney/node_redis.git' },
+278 silly resolved     _npmUser: { name: 'mjr', email: 'mjr@ranney.com' },
+278 silly resolved     _id: 'redis@0.7.3',
+278 silly resolved     dependencies: {},
+278 silly resolved     optionalDependencies: {},
+278 silly resolved     engines: { node: '*' },
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.1.21',
+278 silly resolved     _nodeVersion: 'v0.8.1',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: 'ee57b7a44d25ec1594e44365d8165fa7d1d4811a',
+278 silly resolved        tarball: 'http://registry.npmjs.org/redis/-/redis-0.7.3.tgz' },
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: 'ee57b7a44d25ec1594e44365d8165fa7d1d4811a',
+278 silly resolved     _from: 'redis@0.7.3',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/redis/-/redis-0.7.3.tgz' },
+278 silly resolved   { name: 'benchmark',
+278 silly resolved     version: '0.2.2',
+278 silly resolved     description: 'A benchmarking library that works on nearly all JavaScript platforms, supports high-resolution timers, and returns statistically significant results.',
+278 silly resolved     homepage: 'http://benchmarkjs.com/',
+278 silly resolved     main: 'benchmark',
+278 silly resolved     keywords: [ 'benchmark', 'node', 'narwhal', 'performance', 'ringo', 'speed' ],
+278 silly resolved     licenses: [ [Object] ],
+278 silly resolved     author:
+278 silly resolved      { name: 'Mathias Bynens',
+278 silly resolved        email: 'mathias@benchmarkjs.com',
+278 silly resolved        url: 'http://mathiasbynens.be/' },
+278 silly resolved     maintainers: [ [Object], [Object] ],
+278 silly resolved     bugs:
+278 silly resolved      { email: 'bugs@benchmarkjs.com',
+278 silly resolved        url: 'https://github.com/bestiejs/benchmark.js/issues' },
+278 silly resolved     repository:
+278 silly resolved      { type: 'git',
+278 silly resolved        url: 'git://github.com/bestiejs/benchmark.js.git' },
+278 silly resolved     engines: [ 'node', 'rhino' ],
+278 silly resolved     directories: { doc: 'docs', test: 'tests' },
+278 silly resolved     dependencies: {},
+278 silly resolved     devDependencies: {},
+278 silly resolved     _id: 'benchmark@0.2.2',
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.0.6',
+278 silly resolved     _nodeVersion: 'v0.4.1',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: '9c6bcf8d997c7102c050f075ee8e622e1d66b206',
+278 silly resolved        tarball: 'http://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz' },
+278 silly resolved     scripts: {},
+278 silly resolved     _shasum: '9c6bcf8d997c7102c050f075ee8e622e1d66b206',
+278 silly resolved     _from: 'benchmark@0.2.2',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/benchmark/-/benchmark-0.2.2.tgz' },
+278 silly resolved   { name: 'socket.io-client',
+278 silly resolved     description: 'Socket.IO client for the browser and node.js',
+278 silly resolved     version: '0.9.11',
+278 silly resolved     main: './lib/io.js',
+278 silly resolved     browserify: './dist/socket.io.js',
+278 silly resolved     homepage: 'http://socket.io',
+278 silly resolved     keywords: [ 'websocket', 'socket', 'realtime', 'socket.io', 'comet', 'ajax' ],
+278 silly resolved     author: { name: 'Guillermo Rauch', email: 'guillermo@learnboost.com' },
+278 silly resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+278 silly resolved     repository:
+278 silly resolved      { type: 'git',
+278 silly resolved        url: 'https://github.com/LearnBoost/socket.io-client.git' },
+278 silly resolved     dependencies:
+278 silly resolved      { 'uglify-js': '1.2.5',
+278 silly resolved        ws: '0.4.x',
+278 silly resolved        xmlhttprequest: '1.4.2',
+278 silly resolved        'active-x-obfuscator': '0.0.1' },
+278 silly resolved     devDependencies:
+278 silly resolved      { expresso: '*',
+278 silly resolved        express: '2.5.x',
+278 silly resolved        jade: '*',
+278 silly resolved        stylus: '*',
+278 silly resolved        'socket.io': '0.9.11',
+278 silly resolved        'socket.io-client': '0.9.11',
+278 silly resolved        should: '*' },
+278 silly resolved     engines: { node: '>= 0.4.0' },
+278 silly resolved     _id: 'socket.io-client@0.9.11',
+278 silly resolved     dist:
+278 silly resolved      { shasum: '94defc1b29e0d8a8fe958c1cf33300f68d8a19c7',
+278 silly resolved        tarball: 'http://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz' },
+278 silly resolved     _npmVersion: '1.1.59',
+278 silly resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+278 silly resolved     maintainers: [ [Object] ],
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: '94defc1b29e0d8a8fe958c1cf33300f68d8a19c7',
+278 silly resolved     _from: 'socket.io-client@0.9.11',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/socket.io-client/-/socket.io-client-0.9.11.tgz' },
+278 silly resolved   { name: 'expresso',
+278 silly resolved     version: '0.9.2',
+278 silly resolved     description: 'TDD framework, light-weight, fast, CI-friendly',
+278 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+278 silly resolved     repository:
+278 silly resolved      { type: 'git',
+278 silly resolved        url: 'git://github.com/visionmedia/expresso.git' },
+278 silly resolved     bin:
+278 silly resolved      { expresso: './bin/expresso',
+278 silly resolved        'node-jscoverage': './deps/jscoverage/node-jscoverage' },
+278 silly resolved     scripts: { preinstall: 'make deps/jscoverage/node-jscoverage' },
+278 silly resolved     _npmJsonOpts:
+278 silly resolved      { file: '/Users/tj/.npm/expresso/0.9.2/package/package.json',
+278 silly resolved        wscript: false,
+278 silly resolved        contributors: false,
+278 silly resolved        serverjs: false },
+278 silly resolved     _id: 'expresso@0.9.2',
+278 silly resolved     dependencies: {},
+278 silly resolved     devDependencies: {},
+278 silly resolved     engines: { node: '*' },
+278 silly resolved     _engineSupported: true,
+278 silly resolved     _npmVersion: '1.0.24',
+278 silly resolved     _nodeVersion: 'v0.4.12',
+278 silly resolved     _defaultsLoaded: true,
+278 silly resolved     dist:
+278 silly resolved      { shasum: '177b260908acaebe45ee16ddf74495a3f55862e8',
+278 silly resolved        tarball: 'http://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz' },
+278 silly resolved     maintainers: [ [Object], [Object] ],
+278 silly resolved     directories: {},
+278 silly resolved     _shasum: '177b260908acaebe45ee16ddf74495a3f55862e8',
+278 silly resolved     _from: 'expresso@0.9.2',
+278 silly resolved     _resolved: 'https://registry.npmjs.org/expresso/-/expresso-0.9.2.tgz' } ]
+279 info install base64id@0.1.0 into /Users/cabot/JavaScriptWorkSpace/socket.io
+280 info install colors@0.5.1 into /Users/cabot/JavaScriptWorkSpace/socket.io
+281 info install policyfile@0.0.4 into /Users/cabot/JavaScriptWorkSpace/socket.io
+282 info install microtime@0.1.3-1 into /Users/cabot/JavaScriptWorkSpace/socket.io
+283 info install should@4.0.4 into /Users/cabot/JavaScriptWorkSpace/socket.io
+284 info install redis@0.7.3 into /Users/cabot/JavaScriptWorkSpace/socket.io
+285 info install benchmark@0.2.2 into /Users/cabot/JavaScriptWorkSpace/socket.io
+286 info install socket.io-client@0.9.11 into /Users/cabot/JavaScriptWorkSpace/socket.io
+287 info install expresso@0.9.2 into /Users/cabot/JavaScriptWorkSpace/socket.io
+288 info installOne base64id@0.1.0
+289 info installOne colors@0.5.1
+290 info installOne policyfile@0.0.4
+291 info installOne microtime@0.1.3-1
+292 info installOne should@4.0.4
+293 info installOne redis@0.7.3
+294 info installOne benchmark@0.2.2
+295 info installOne socket.io-client@0.9.11
+296 info installOne expresso@0.9.2
+297 verbose node_modules/base64id unbuild
+298 verbose node_modules/policyfile unbuild
+299 verbose tar unpack /Users/cabot/.npm/base64id/0.1.0/package.tgz
+300 silly lockFile 07320837--socket-io-node-modules-base64id tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id
+301 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id /Users/cabot/.npm/07320837--socket-io-node-modules-base64id.lock
+302 silly lockFile 1ecf61bd-t-npm-base64id-0-1-0-package-tgz tar:///Users/cabot/.npm/base64id/0.1.0/package.tgz
+303 verbose lock tar:///Users/cabot/.npm/base64id/0.1.0/package.tgz /Users/cabot/.npm/1ecf61bd-t-npm-base64id-0-1-0-package-tgz.lock
+304 verbose tar unpack /Users/cabot/.npm/policyfile/0.0.4/package.tgz
+305 silly lockFile 83238579-ocket-io-node-modules-policyfile tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/policyfile
+306 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/policyfile /Users/cabot/.npm/83238579-ocket-io-node-modules-policyfile.lock
+307 silly lockFile ab25bb49-npm-policyfile-0-0-4-package-tgz tar:///Users/cabot/.npm/policyfile/0.0.4/package.tgz
+308 verbose lock tar:///Users/cabot/.npm/policyfile/0.0.4/package.tgz /Users/cabot/.npm/ab25bb49-npm-policyfile-0-0-4-package-tgz.lock
+309 verbose node_modules/colors unbuild
+310 verbose node_modules/microtime unbuild
+311 verbose node_modules/should unbuild
+312 verbose node_modules/expresso unbuild
+313 silly gunzTarPerm modes [ '755', '644' ]
+314 silly gunzTarPerm modes [ '755', '644' ]
+315 verbose tar unpack /Users/cabot/.npm/colors/0.5.1/package.tgz
+316 silly lockFile db1e93c2-ce-socket-io-node-modules-colors tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors
+317 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors /Users/cabot/.npm/db1e93c2-ce-socket-io-node-modules-colors.lock
+318 silly lockFile e915c03c-bot-npm-colors-0-5-1-package-tgz tar:///Users/cabot/.npm/colors/0.5.1/package.tgz
+319 verbose lock tar:///Users/cabot/.npm/colors/0.5.1/package.tgz /Users/cabot/.npm/e915c03c-bot-npm-colors-0-5-1-package-tgz.lock
+320 verbose tar unpack /Users/cabot/.npm/microtime/0.1.3-1/package.tgz
+321 silly lockFile 03dc9735-socket-io-node-modules-microtime tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime
+322 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime /Users/cabot/.npm/03dc9735-socket-io-node-modules-microtime.lock
+323 silly lockFile bf4c6684-pm-microtime-0-1-3-1-package-tgz tar:///Users/cabot/.npm/microtime/0.1.3-1/package.tgz
+324 verbose lock tar:///Users/cabot/.npm/microtime/0.1.3-1/package.tgz /Users/cabot/.npm/bf4c6684-pm-microtime-0-1-3-1-package-tgz.lock
+325 verbose tar unpack /Users/cabot/.npm/should/4.0.4/package.tgz
+326 silly lockFile b2c235af-ce-socket-io-node-modules-should tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/should
+327 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/should /Users/cabot/.npm/b2c235af-ce-socket-io-node-modules-should.lock
+328 silly lockFile a86f81a8-bot-npm-should-4-0-4-package-tgz tar:///Users/cabot/.npm/should/4.0.4/package.tgz
+329 verbose lock tar:///Users/cabot/.npm/should/4.0.4/package.tgz /Users/cabot/.npm/a86f81a8-bot-npm-should-4-0-4-package-tgz.lock
+330 verbose tar unpack /Users/cabot/.npm/expresso/0.9.2/package.tgz
+331 silly lockFile 058dd72d--socket-io-node-modules-expresso tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/expresso
+332 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/expresso /Users/cabot/.npm/058dd72d--socket-io-node-modules-expresso.lock
+333 silly lockFile a97c2549-t-npm-expresso-0-9-2-package-tgz tar:///Users/cabot/.npm/expresso/0.9.2/package.tgz
+334 verbose lock tar:///Users/cabot/.npm/expresso/0.9.2/package.tgz /Users/cabot/.npm/a97c2549-t-npm-expresso-0-9-2-package-tgz.lock
+335 verbose node_modules/socket.io-client unbuild
+336 verbose node_modules/benchmark unbuild
+337 silly gunzTarPerm modes [ '755', '644' ]
+338 silly gunzTarPerm modes [ '755', '644' ]
+339 silly gunzTarPerm modes [ '755', '644' ]
+340 silly gunzTarPerm modes [ '755', '644' ]
+341 silly gunzTarPerm extractEntry package.json
+342 verbose tar unpack /Users/cabot/.npm/socket.io-client/0.9.11/package.tgz
+343 silly lockFile 7690fe76-io-node-modules-socket-io-client tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/socket.io-client
+344 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/socket.io-client /Users/cabot/.npm/7690fe76-io-node-modules-socket-io-client.lock
+345 silly lockFile abb484be-ket-io-client-0-9-11-package-tgz tar:///Users/cabot/.npm/socket.io-client/0.9.11/package.tgz
+346 verbose lock tar:///Users/cabot/.npm/socket.io-client/0.9.11/package.tgz /Users/cabot/.npm/abb484be-ket-io-client-0-9-11-package-tgz.lock
+347 verbose tar unpack /Users/cabot/.npm/benchmark/0.2.2/package.tgz
+348 silly lockFile 40250c66-socket-io-node-modules-benchmark tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/benchmark
+349 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/benchmark /Users/cabot/.npm/40250c66-socket-io-node-modules-benchmark.lock
+350 silly lockFile 6a4222f8--npm-benchmark-0-2-2-package-tgz tar:///Users/cabot/.npm/benchmark/0.2.2/package.tgz
+351 verbose lock tar:///Users/cabot/.npm/benchmark/0.2.2/package.tgz /Users/cabot/.npm/6a4222f8--npm-benchmark-0-2-2-package-tgz.lock
+352 verbose node_modules/redis unbuild
+353 silly gunzTarPerm extractEntry .gitignore
+354 silly gunzTarPerm extractEntry .npmignore
+355 silly gunzTarPerm extractEntry README.md
+356 silly gunzTarPerm modes [ '755', '644' ]
+357 silly gunzTarPerm modes [ '755', '644' ]
+358 verbose tar unpack /Users/cabot/.npm/redis/0.7.3/package.tgz
+359 silly lockFile 49f4e921-ace-socket-io-node-modules-redis tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/redis
+360 verbose lock tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/redis /Users/cabot/.npm/49f4e921-ace-socket-io-node-modules-redis.lock
+361 silly lockFile 58615177-abot-npm-redis-0-7-3-package-tgz tar:///Users/cabot/.npm/redis/0.7.3/package.tgz
+362 verbose lock tar:///Users/cabot/.npm/redis/0.7.3/package.tgz /Users/cabot/.npm/58615177-abot-npm-redis-0-7-3-package-tgz.lock
+363 silly gunzTarPerm extractEntry .gitignore
+364 silly gunzTarPerm extractEntry index.js
+365 silly gunzTarPerm extractEntry LICENSE
+366 silly gunzTarPerm modes [ '755', '644' ]
+367 silly gunzTarPerm extractEntry .gitmodules
+368 silly gunzTarPerm extractEntry History.md
+369 silly gunzTarPerm extractEntry colors.js
+370 silly gunzTarPerm extractEntry
+371 silly gunzTarPerm modified mode [ '', 509, 493 ]
+372 silly gunzTarPerm extractEntry package.json
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+375 silly gunzTarPerm extractEntry example.html
+376 silly gunzTarPerm extractEntry example.js
+377 silly gunzTarPerm extractEntry package.json
+378 silly gunzTarPerm extractEntry index.js
+379 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+380 silly gunzTarPerm extractEntry LICENSE
+381 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+382 silly gunzTarPerm extractEntry microtime.node
+383 silly gunzTarPerm modified mode [ 'microtime.node', 509, 493 ]
+384 silly gunzTarPerm extractEntry .npmignore
+385 silly gunzTarPerm extractEntry LICENSE
+386 silly gunzTarPerm extractEntry LICENSE.txt
+387 silly gunzTarPerm extractEntry .npmignore
+388 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+389 silly gunzTarPerm extractEntry README.md
+390 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+391 silly gunzTarPerm extractEntry .npmignore
+392 silly gunzTarPerm extractEntry README.md
+393 silly gunzTarPerm extractEntry Makefile
+394 silly gunzTarPerm extractEntry package.json
+395 silly gunzTarPerm extractEntry lib/base64id.js
+396 silly gunzTarPerm extractEntry package.json
+397 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+398 silly gunzTarPerm extractEntry package2.json
+399 silly gunzTarPerm modified mode [ 'package2.json', 436, 420 ]
+400 silly gunzTarPerm extractEntry Makefile
+401 silly gunzTarPerm extractEntry package.json
+402 silly gunzTarPerm extractEntry README.md
+403 silly gunzTarPerm extractEntry benchmark.js
+404 silly gunzTarPerm extractEntry should.min.js
+405 silly gunzTarPerm extractEntry gulpfile.js
+406 silly gunzTarPerm extractEntry index.js
+407 silly gunzTarPerm extractEntry should.js
+408 silly gunzTarPerm extractEntry .travis.yml
+409 silly gunzTarPerm extractEntry .zuul.yml
+410 silly gunzTarPerm extractEntry CONTRIBUTING.md
+411 silly gunzTarPerm extractEntry lib/eql.js
+412 silly gunzTarPerm extractEntry lib/inspect.js
+413 silly gunzTarPerm extractEntry lib/should.js
+414 silly gunzTarPerm extractEntry lib/util.js
+415 silly gunzTarPerm extractEntry lib/ext/assert.js
+416 silly gunzTarPerm extractEntry lib/ext/chain.js
+417 silly gunzTarPerm extractEntry lib/ext/contain.js
+418 silly gunzTarPerm extractEntry lib/ext/eql.js
+419 silly gunzTarPerm extractEntry lib/ext/bool.js
+420 silly gunzTarPerm extractEntry lib/ext/match.js
+421 silly gunzTarPerm extractEntry lib/ext/number.js
+422 silly gunzTarPerm extractEntry lib/ext/property.js
+423 silly gunzTarPerm extractEntry lib/ext/string.js
+424 silly gunzTarPerm extractEntry lib/ext/type.js
+425 silly gunzTarPerm extractEntry lib/ext/error.js
+426 silly gunzTarPerm extractEntry History.md
+427 silly gunzTarPerm extractEntry .idea/misc.xml
+428 silly gunzTarPerm extractEntry .idea/codeStyleSettings.xml
+429 silly gunzTarPerm extractEntry .idea/jsLibraryMappings.xml
+430 silly gunzTarPerm extractEntry .idea/jsLinters/jshint.xml
+431 silly gunzTarPerm extractEntry .idea/libraries/Node_js_Dependencies_for_should_js.xml
+432 silly gunzTarPerm extractEntry .idea/libraries/should_js_node_modules.xml
+433 silly gunzTarPerm extractEntry .idea/encodings.xml
+434 silly gunzTarPerm extractEntry .idea/modules.xml
+435 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+436 silly gunzTarPerm extractEntry .idea/should.js.iml
+437 silly gunzTarPerm extractEntry .idea/vcs.xml
+438 silly gunzTarPerm extractEntry .idea/workspace.xml
+439 silly gunzTarPerm extractEntry Readme.md
+440 silly gunzTarPerm extractEntry diff_multi_bench_output.js
+441 silly gunzTarPerm extractEntry bin/builder.js
+442 silly gunzTarPerm modified mode [ 'bin/builder.js', 511, 493 ]
+443 silly gunzTarPerm extractEntry README.md
+444 silly gunzTarPerm extractEntry doc/index.html
+445 silly gunzTarPerm extractEntry README.md
+446 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+447 silly gunzTarPerm extractEntry src/
+448 silly gunzTarPerm modified mode [ 'src/', 509, 493 ]
+449 silly gunzTarPerm extractEntry Readme.md
+450 silly gunzTarPerm extractEntry bin/expresso
+451 silly gunzTarPerm extractEntry dist/socket.io.js
+452 silly gunzTarPerm modified mode [ 'dist/socket.io.js', 438, 420 ]
+453 silly gunzTarPerm extractEntry package.json
+454 silly gunzTarPerm extractEntry generate_commands.js
+455 silly gunzTarPerm extractEntry multi_bench.js
+456 warn excluding symbolic link microtime.node -> /Users/wade/src/node-microtime/build/default/microtime.node
+457 silly gunzTarPerm extractEntry MIT-LICENSE.txt
+458 silly gunzTarPerm extractEntry package.json
+459 silly gunzTarPerm extractEntry dist/socket.io.min.js
+460 silly gunzTarPerm modified mode [ 'dist/socket.io.min.js', 438, 420 ]
+461 silly gunzTarPerm extractEntry dist/WebSocketMain.swf
+462 silly gunzTarPerm modified mode [ 'dist/WebSocketMain.swf', 438, 420 ]
+463 silly gunzTarPerm extractEntry examples/basic.fallback.js
+464 silly gunzTarPerm extractEntry test.js
+465 silly gunzTarPerm modified mode [ 'test.js', 436, 420 ]
+466 silly gunzTarPerm extractEntry wscript
+467 silly gunzTarPerm modified mode [ 'wscript', 436, 420 ]
+468 silly gunzTarPerm extractEntry ReadMe.md
+469 silly gunzTarPerm extractEntry docs/api.html
+470 silly gunzTarPerm extractEntry tests/node.js
+471 silly gunzTarPerm extractEntry docs/README.md
+472 silly gunzTarPerm extractEntry examples/basic.js
+473 silly gunzTarPerm extractEntry lib/server.js
+474 silly gunzTarPerm extractEntry src/microtime.cc
+475 silly gunzTarPerm extractEntry tests/unit.test.js
+476 silly gunzTarPerm extractEntry tests/ssl/ssl.crt
+477 silly gunzTarPerm extractEntry docs/index.html
+478 silly gunzTarPerm extractEntry docs/index.md
+479 silly lockFile 07320837--socket-io-node-modules-base64id tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id
+480 silly lockFile 07320837--socket-io-node-modules-base64id tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id
+481 silly lockFile 1ecf61bd-t-npm-base64id-0-1-0-package-tgz tar:///Users/cabot/.npm/base64id/0.1.0/package.tgz
+482 silly lockFile 1ecf61bd-t-npm-base64id-0-1-0-package-tgz tar:///Users/cabot/.npm/base64id/0.1.0/package.tgz
+483 silly gunzTarPerm extractEntry dist/WebSocketMainInsecure.swf
+484 silly gunzTarPerm modified mode [ 'dist/WebSocketMainInsecure.swf', 438, 420 ]
+485 silly gunzTarPerm extractEntry docs/layout/head.html
+486 silly gunzTarPerm extractEntry docs/layout/foot.html
+487 info preinstall base64id@0.1.0
+488 silly gunzTarPerm extractEntry tests/ssl/ssl.private.key
+489 verbose readDependencies using package.json deps
+490 verbose readDependencies using package.json deps
+491 silly resolved []
+492 verbose about to build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id
+493 info build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/base64id
+494 verbose linkStuff [ false,
+494 verbose linkStuff   false,
+494 verbose linkStuff   false,
+494 verbose linkStuff   '/Users/cabot/JavaScriptWorkSpace/socket.io/node_modules' ]
+495 info linkStuff base64id@0.1.0
+496 verbose linkBins base64id@0.1.0
+497 verbose linkMans base64id@0.1.0
+498 verbose rebuildBundles base64id@0.1.0
+499 info install base64id@0.1.0
+500 info postinstall base64id@0.1.0
+501 silly gunzTarPerm extractEntry test/assert.test.js
+502 silly gunzTarPerm extractEntry test/.invalid.test.js
+503 silly gunzTarPerm extractEntry History.md
+504 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+505 silly gunzTarPerm extractEntry mem.js
+506 silly gunzTarPerm extractEntry test.js
+507 silly gunzTarPerm extractEntry index.js
+508 silly gunzTarPerm extractEntry lib/commands.js
+509 silly lockFile db1e93c2-ce-socket-io-node-modules-colors tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors
+510 silly lockFile db1e93c2-ce-socket-io-node-modules-colors tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors
+511 silly lockFile e915c03c-bot-npm-colors-0-5-1-package-tgz tar:///Users/cabot/.npm/colors/0.5.1/package.tgz
+512 silly lockFile e915c03c-bot-npm-colors-0-5-1-package-tgz tar:///Users/cabot/.npm/colors/0.5.1/package.tgz
+513 silly lockFile 03dc9735-socket-io-node-modules-microtime tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime
+514 silly lockFile 03dc9735-socket-io-node-modules-microtime tar:///Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime
+515 silly lockFile bf4c6684-pm-microtime-0-1-3-1-package-tgz tar:///Users/cabot/.npm/microtime/0.1.3-1/package.tgz
+516 silly lockFile bf4c6684-pm-microtime-0-1-3-1-package-tgz tar:///Users/cabot/.npm/microtime/0.1.3-1/package.tgz
+517 info preinstall colors@0.5.1
+518 info preinstall microtime@0.1.3-1
+519 silly gunzTarPerm extractEntry lib/queue.js
+520 silly gunzTarPerm extractEntry lib/to_array.js
+521 verbose readDependencies using package.json deps
+522 verbose readDependencies using package.json deps
+523 silly resolved []
+524 verbose about to build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors
+525 info build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/colors
+526 verbose linkStuff [ false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   false,
+526 verbose linkStuff   '/Users/cabot/JavaScriptWorkSpace/socket.io/node_modules' ]
+527 info linkStuff colors@0.5.1
+528 verbose linkBins colors@0.5.1
+529 verbose linkMans colors@0.5.1
+530 verbose rebuildBundles colors@0.5.1
+531 verbose readDependencies using package.json deps
+532 info install colors@0.5.1
+533 verbose readDependencies using package.json deps
+534 silly resolved []
+535 verbose about to build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime
+536 info build /Users/cabot/JavaScriptWorkSpace/socket.io/node_modules/microtime
+537 verbose linkStuff [ false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   false,
+537 verbose linkStuff   '/Users/cabot/JavaScriptWorkSpace/socket.io/node_modules' ]
+538 info linkStuff microtime@0.1.3-1
+539 verbose linkBins microtime@0.1.3-1
+540 verbose linkMans microtime@0.1.3-1
+541 verbose rebuildBundles microtime@0.1.3-1
+542 info install microtime@0.1.3-1
+543 info postinstall colors@0.5.1
+544 verbose unsafe-perm in lifecycle false
+545 silly gunzTarPerm extractEntry test/async.test.js
+546 silly gunzTarPerm extractEntry test/bar.test.js
+547 silly gunzTarPerm extractEntry lib/util.js
+548 silly gunzTarPerm extractEntry lib/parser/hiredis.js
+549 info microtime@0.1.3-1 Failed to exec install script
+550 verbose node_modules/microtime unbuild
+551 info preuninstall microtime@0.1.3-1
+552 info uninstall microtime@0.1.3-1
+553 silly gunzTarPerm extractEntry lib/parser/javascript.js
+554 silly gunzTarPerm extractEntry benches/buffer_bench.js
+555 verbose true,/Users/cabot/JavaScriptWorkSpace/socket.io/node_modules,/Users/cabot/JavaScriptWorkSpace/socket.io/node_modules unbuild microtime@0.1.3-1
+556 info postuninstall microtime@0.1.3-1
+557 error microtime@0.1.3-1 install: `node-waf configure build`
+557 error Exit status 127
+558 error Failed at the microtime@0.1.3-1 install script.
+558 error This is most likely a problem with the microtime package,
+558 error not with npm itself.
+558 error Tell the author that this fails on your system:
+558 error     node-waf configure build
+558 error You can get their info via:
+558 error     npm owner ls microtime
+558 error There is likely additional logging output above.
+559 error System Darwin 13.3.0
+560 error command "node" "/usr/local/bin/npm" "install"
+561 error cwd /Users/cabot/JavaScriptWorkSpace/socket.io
+562 error node -v v0.10.0
+563 error npm -v 1.4.21
+564 error code ELIFECYCLE
+565 verbose exit [ 1, true ]
