@@ -44,7 +44,7 @@ app.get('/', function (req, res) {
 
 app.listen(3000, function () {
     var addr = app.address();
-    console.log('   app listening on http://' + addr.address + ':' + addr.port);
+    console.log('App listening on http://' + addr.address + ':' + addr.port);
 });
 
 /**
@@ -52,6 +52,7 @@ app.listen(3000, function () {
  */
 
 
+/*Connect to mongodb for pushing the data to db*/
 
 mongoose.connect('mongodb://localhost/chat',function(err){
     if(err)
@@ -69,37 +70,28 @@ var io = sio.listen(app)
 
 io.sockets.on('connection', function (socket) {
     socket.on('room', function(room) {
+        console.log('!!!!!!!!!!!!!!',room);
         socket.join(room);
+        socket.broadcast.emit('announcement', room + ' created');
     });
 
-    var clients = io.sockets.clients();
-    console.log('LIST all clients',clients);
+
     socket.on('user message', function (message) {
-        console.log('message :::::',message);
-        // console.log(message.text);
         socket.broadcast.emit('user message',message);
-
-
     });
-
-    var room="abc";
-    io.sockets.in(room).emit('message', 'what is going on, party people?');
-
-// this message will NOT go to the client defined above
-    io.sockets.in('foobar').emit('message', 'anyone in this room yet?');
 
     socket.on('nickname', function (nick, fn) {
-
-        console.log(nick);
-        if (nicknames[nick]) {
+        console.log('function ',fn);
+        if (nicknames[nick])
+        {
+            console.log('true case',nicknames[nick]);
             fn(true);
-        } else {
+        } else
+        {
+            console.log('false case',nicknames[nick]);
+
             fn(false);
-//        console.log('11111111111',nicknames);
-//        console.log('22222222222',nick);
-//
             nicknames[nick] = socket.nickname = nick;
-//        console.log('333333333333',nicknames[nick]);
             socket.broadcast.emit('announcement', nick + ' connected');
             io.sockets.emit('nicknames', nicknames);
         }
@@ -107,7 +99,6 @@ io.sockets.on('connection', function (socket) {
 
     socket.on('disconnect', function () {
         if (!socket.nickname) return;
-
         delete nicknames[socket.nickname];
         socket.broadcast.emit('announcement', socket.nickname + ' disconnected');
         socket.broadcast.emit('nicknames', nicknames);

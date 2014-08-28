@@ -44,10 +44,12 @@ html
               nickname=$('#nick').val();
               console.log('nickname :',$('#nick').val());
                 socket.emit('nickname', $('#nick').val(), function (set) {
+                console.log('response call back *******',set);
                   if (!set) {
                     clear();
                     return $('#chat').addClass('nickname-set');
                   }
+                 socket.emit('room','cabot');
                   $('#nickname-err').css('visibility', 'visible');
                 });
                 return false;
